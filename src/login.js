@@ -29,7 +29,7 @@ export function realizarLogin(email, senha) {
             if (usuario.expirado) {
                 return 'Credenciais expiradas!';
             }
-            return 'Login realizado com sucesso!'
+            return 'Login realizado com sucesso!';
         }
     }
     return 'Credenciais incorretas!';
